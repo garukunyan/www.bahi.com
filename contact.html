@@ -1,0 +1,143 @@
+﻿<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Bahi"contact"</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+<br><br><br>
+</head>
+
+<body>
+<div class="container">
+    <!-- row 1 -->
+    <header class="row">
+    	<div class="col-lg-6 col-sm-5">
+        	<a href="index.html"><img src="img/bahilogo.jpg" alt="Wisdom Pets. click for home."></a>
+        </div>
+    	
+
+
+    </header>
+
+<div class="container">
+	<!-- row 1: navigation -->
+    <div class="row">
+    	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                  MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                      <li><a href="index.html">Home</a></li>                          
+                    <li class="active"><a href="Product.html">Products</a></li>
+                    <li><a href="photo.html">Photo Gallery</a></li>
+                   <li><a href="contact.html">Contact US</a></li>
+			<li><a href="About.html">About</a></li>
+                </ul> 
+            </div>
+         </nav>
+
+    </div><br><br>
+<div class="container">
+<form class="form-horizontal" id="form_members" role="form">
+<legend>Person</legend>
+<div class="form-group">
+    <label for="firstname" class="col-sm-2">First Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name">
+    </div>
+    <label for="lastname" class="col-sm-2">Last Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last Name">
+    </div>
+</div>
+<div class="form-group">
+    <label for="gender" class="col-sm-2">Gender</label>
+    <div class="col-sm-4">
+        <label class="radio-inline">
+        <input type="radio" name="gender" id="male" value="male"> Male
+        </label>
+        <label class="radio-inline">
+        <input type="radio" name="gender" id="female" value="female"> Female
+        </label>
+    </div>
+    <label for="dob" class="col-sm-2">Date of Birth</label>
+    <div class="col-sm-4">
+        <input type="date" class="form-control" name="dob" id="dob" placeholder="mm/dd/yyyy">
+    </div>
+</div>
+<legend>Address</legend>
+<div class="form-group">
+    <label for="address" class="col-sm-2">Address</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" name="address" id="address" placeholder="Street + No">
+    </div>
+    <label for="city" class="col-sm-2">City</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="cities" name="city" id="city" placeholder="City">
+    <datalist id="cities">
+        <option value="1">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+    </datalist>
+    </div>
+</div>
+<div class="form-group">
+    <label for="zipcode" class="col-sm-2">ZIP Code</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" name="zipcode" id="zipcode" placeholder="ZIP Code">
+    </div>
+    <label for="region" class="col-sm-2">Region</label>
+    <div class="col-sm-4">
+        <select class="form-control" name="region" id="region">
+            <option>Select a Region</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>6</option>
+        </select>
+    </div>
+</div>
+<legend>Contact Info</legend>
+<div class="form-group">
+    <label for="phone" class="col-sm-2">Phone</label>
+    <div class="col-sm-4">
+        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+    </div>
+    <label for="email" class="col-sm-2">Email</label>
+    <div class="col-sm-4">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-warning" name="submit" id="submit">Submit</button>
+    </div>
+</div>
+</form>
+</div>
+   <footer>
+<p>&copy; 2017 Bahi Enterprise. &middot; <a href="index.html">Privacy</a> &middot; <a href="#">Terms</a></p>
+	<div>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+ </div>
+        
+      </footer>
+    
+ 
+    <p>contact</p>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.1.js" integrity="sha256-eNcUzO3jsv0XlJLveFEkbB8bA7/CroNpNVk3XpmnwHc=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   
+</body>
+</html>
